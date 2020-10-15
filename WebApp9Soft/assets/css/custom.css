@@ -1,4 +1,10 @@
-﻿.ht-box-images .content .text, .feature-list__one .icon-box-wrap .text {
+﻿.ht-box-images.style-01 .image-box-wrap {
+    height: 420px;
+}
+
+
+
+.ht-box-images .content .text, .feature-list__one .icon-box-wrap .text {
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;

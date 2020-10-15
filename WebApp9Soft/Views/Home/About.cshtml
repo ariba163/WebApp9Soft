@@ -194,7 +194,7 @@
                             </div>
                         </div>
 
-                        <div class="section-under-heading text-center section-space--mt_40">Challenges are just opportunities in disguise. <a href="#">Take the challenge!</a></div>
+                        <div class="section-under-heading text-center section-space--mt_40">Challenges are just opportunities in disguise. <a href="#">Lets consult your ideas with us!</a></div>
 
                     </div>
                 </div>
@@ -220,7 +220,7 @@
                         </div>
                     </div>
                 </div>
-                @*
+                
                 <!-- gallery-wrapper Start -->
                 <div class="gallery-wrapper section-space--pt_80 ">
                     <div class="row">
@@ -230,7 +230,7 @@
                                 <!-- single gallery Start -->
                                 <a class="single-gallery gallery-grid wow move-up" href="~/assets/images/gallery/blog-07-960x960.jpg">
                                     <div class="single-gallery__item">
-                                        <div class="single-gallery__thum bg-item-images bg-img" data-bg="~/assets/images/gallery/blog-07-960x960.jpg">
+                                        <div class="single-gallery__thum bg-item-images bg-img" data-bg="../assets/images/gallery/blog-07-960x960.jpg">
 
                                         </div>
                                         <div class="ht-overlay"></div>
@@ -243,7 +243,7 @@
                                 <!-- single gallery Start -->
                                 <a class="single-gallery gallery-grid wow move-up" href="~/assets/images/gallery/careers-gallery-image-01-960x960.jpg">
                                     <div class="single-gallery__item">
-                                        <div class="single-gallery__thum bg-item-images bg-img" data-bg="~/assets/images/gallery/careers-gallery-image-01-960x960.jpg"></div>
+                                        <div class="single-gallery__thum bg-item-images bg-img" data-bg="../assets/images/gallery/careers-gallery-image-01-960x960.jpg"></div>
                                         <div class="ht-overlay"></div>
                                         <div class="overlay-icon">
                                             <i class="far fa-search"></i>
@@ -254,7 +254,7 @@
                                 <!-- single gallery Start -->
                                 <a class="single-gallery gallery-grid wow move-up" href="~/assets/images/gallery/blog-08-960x960.jpg">
                                     <div class="single-gallery__item">
-                                        <div class="single-gallery__thum bg-item-images bg-img" data-bg="~/assets/images/gallery/blog-08-960x960.jpg"></div>
+                                        <div class="single-gallery__thum bg-item-images bg-img" data-bg="../assets/images/gallery/blog-08-960x960.jpg"></div>
                                         <div class="ht-overlay"></div>
                                         <div class="overlay-icon">
                                             <i class="far fa-search"></i>
@@ -265,7 +265,7 @@
                                 <!-- single gallery Start -->
                                 <a class="single-gallery gallery-grid wow move-up" href="~/assets/images/gallery/blog-06-960x960.jpg">
                                     <div class="single-gallery__item">
-                                        <div class="single-gallery__thum bg-item-images bg-img" data-bg="~/assets/images/gallery/blog-06-960x960.jpg"></div>
+                                        <div class="single-gallery__thum bg-item-images bg-img" data-bg="../assets/images/gallery/blog-06-960x960.jpg"></div>
                                         <div class="ht-overlay"></div>
                                         <div class="overlay-icon">
                                             <i class="far fa-search"></i>
@@ -278,7 +278,7 @@
                             <!-- gallery-warp End -->
                         </div>
                     </div>
-                </div>*@
+                </div>
                 <!-- gallery-wrapper End -->
 
             </div>
@@ -420,48 +420,40 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="contact-form-wrap">
-                            <form id="contact-form" action="https://hasthemes.com/file/mail.php" method="post">
-                                <div class="contact-form__two">
+
+
+
+                            @using (Html.BeginForm("Contact", "Home", FormMethod.Post, new { @id = "contact-form" }))
+                            {
+                                <div class="contact-form">
                                     <div class="contact-input">
                                         <div class="contact-inner">
-                                            <input name="con_name" type="text" placeholder="Name *">
+                                            @Html.TextBox("con_name", null, new { @placeholder = " Name *", type = "text" })
                                         </div>
                                         <div class="contact-inner">
-                                            <input name="con_email" type="email" placeholder="Email *">
+                                            @Html.TextBox("con_email", null, new { @placeholder = " Email *", type = "email" })
                                         </div>
                                     </div>
-                                    <div class="contact-select">
-                                        <div class="form-item contact-inner">
-                                            <span class="inquiry">
-                                                <select name="inquiry" class="select-item">
-                                                    <option value="Your inquiry about">Your inquiry about</option>
-                                                    <option value="General Information Request">General Information Request</option>
-                                                    <option value="Partner Relations">Partner Relations</option>
-                                                    <option value="Careers">Careers</option>
-                                                    <option value="Software Licencing">Software Licencing</option>
-                                                </select>
-                                            </span>
-                                        </div>
+                                    <div class="contact-inner">
+                                        @Html.TextBox("con_subject", null, new { @placeholder = " Subject *", type = "text" })
                                     </div>
                                     <div class="contact-inner contact-message">
-                                        <textarea name="con_message" placeholder="Please describe what you need."></textarea>
+                                        @Html.TextArea("con_message", null, new { @placeholder = "Please describe what you need." })
                                     </div>
-                                    <div class="submit-btn">
-                                        <button class="ht-btn ht-btn-md" type="submit">Get a free consultation</button>
-                                        <p class="form-messege"></p>
+                                    <div class="submit-btn mt-20">
+                                        <button class="ht-btn ht-btn-md" type="submit">Send message</button>
                                     </div>
                                 </div>
-                            </form>
+
+                            }
                         </div>
                     </div>
                     <div class="col-lg-5 ml-auto">
                         <div class="contact-info-three text-left">
                             <h6 class="heading font-weight--reguler">Reach out now!</h6>
-                            <h3 class="call-us"><a href="tel:123 567990">(+00) 123 567990</a></h3>
+                            <h3 class="call-us"><a href="tel:02134527965">021 34527965</a></h3>
                             <div class="text">Start the collaboration with us while figuring out the best solution based on your needs.</div>
-                            <div class="location-button mt-20">
-                                <a href="#" class="location-text-button"><span class="button-icon"></span> <span class="button-text">View on Google map</span></a>
-                            </div>
+                          
                         </div>
                     </div>
                 </div>

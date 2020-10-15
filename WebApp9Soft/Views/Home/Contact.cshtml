@@ -6,38 +6,38 @@
         <div class="contact-us-section-wrappaer section-space--pt_100 section-space--pb_70">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-6 col-lg-6">
+                    <div class="col-lg-6">
                         <div class="conact-us-wrap-one mb-30">
                             <h3 class="heading">To make requests for <br>further information, <br><span class="text-color-primary">contact us</span> via our social channels. </h3>
-                            <div class="sub-heading">We just need a couple of hours! <br> No more than 2 working days since receiving your issue ticket.</div>
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-lg-6">
+                    <div class="col-lg-6">
                         <div class="contact-form-wrap">
 
 
 
-                            @using (Html.BeginForm("Contact", "Home", FormMethod.Post, new { @id = "contact-form" })) { 
-                            <div class="contact-form">
-                                <div class="contact-input">
-                                    <div class="contact-inner">
-                                        @Html.TextBox("con_name", null, new { @placeholder =" Name *", type="text"})
+                            @using (Html.BeginForm("Contact", "Home", FormMethod.Post, new { @id = "contact-form" }))
+                            {
+                                <div class="contact-form">
+                                    <div class="contact-input">
+                                        <div class="contact-inner">
+                                            @Html.TextBox("con_name", null, new { @placeholder = " Name *", type = "text" })
+                                        </div>
+                                        <div class="contact-inner">
+                                            @Html.TextBox("con_email", null, new { @placeholder = " Email *", type = "email" })
+                                        </div>
                                     </div>
                                     <div class="contact-inner">
-                                        @Html.TextBox("con_email", null, new { @placeholder = " Email *", type = "email" })
+                                        @Html.TextBox("con_subject", null, new { @placeholder = " Subject *", type = "text" })
+                                    </div>
+                                    <div class="contact-inner contact-message">
+                                        @Html.TextArea("con_message", null, new { @placeholder = "Please describe what you need." })
+                                    </div>
+                                    <div class="submit-btn mt-20">
+                                        <button class="ht-btn ht-btn-md" type="submit">Send message</button>
                                     </div>
                                 </div>
-                                <div class="contact-inner">
-                                    @Html.TextBox("con_subject", null, new { @placeholder = " Subject *", type = "text" })
-                                </div>
-                                <div class="contact-inner contact-message">
-                                    @Html.TextArea("con_message", null, new { @placeholder = "Please describe what you need."})
-                                </div>
-                                <div class="submit-btn mt-20">
-                                    <button class="ht-btn ht-btn-md" type="submit">Send message</button>
-                                </div>
-                            </div>
 
                             }
                         </div>
@@ -47,16 +47,16 @@
         </div>
         <!--====================  Conact us Section End  ====================-->
         <!--====================  Conact us info Start ====================-->
-        <div class="contact-us-info-wrappaer section-space--pb_100">
+        @*<div class="contact-us-info-wrappaer section-space--pb_100">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-4 col-md-6">
                         <div class="conact-info-wrap mt-30">
-                            <h5 class="heading mb-20">San Francisco</h5>
+                            <h5 class="heading mb-20">Head Office</h5>
                             <ul class="conact-info__list">
-                                <li>58 Howard Street #2 San Francisco, CA 941</li>
-                                <li><a href="#" class="hover-style-link text-color-primary">contact.sanfrancisco@9SoftSolution.com</a></li>
-                                <li><a href="#" class="hover-style-link text-black font-weight--bold">(+68)1221 09876</a></li>
+                                <li>304, Anum blessing KCHSU main Sharah-E-faisal, Karachi.</li>
+                                <li><a href="#" class="hover-style-link text-color-primary">info@9softsolutions.pk</a></li>
+                                <li><a href="#" class="hover-style-link text-black font-weight--bold">02134527965</a></li>
                             </ul>
                         </div>
                     </div>
@@ -65,7 +65,7 @@
                             <h5 class="heading mb-20">New York</h5>
                             <ul class="conact-info__list">
                                 <li>58 Howard Street #14 New York</li>
-                                <li><a href="#" class="hover-style-link text-color-primary">contact.newyork@9SoftSolution.com</a></li>
+                                <li><a href="#" class="hover-style-link text-color-primary">info@9softsolutions.pk</a></li>
                                 <li><a href="#" class="hover-style-link text-black font-weight--bold">(+47)1221 09878</a></li>
                             </ul>
                         </div>
@@ -75,7 +75,7 @@
                             <h5 class="heading mb-20">Russia</h5>
                             <ul class="conact-info__list">
                                 <li>The Courtyard Building 11 Curtain Road, Russia</li>
-                                <li><a href="#" class="hover-style-link text-color-primary">contact.russia@9SoftSolution.com</a></li>
+                                <li><a href="#" class="hover-style-link text-color-primary">info@9softsolutions.pk</a></li>
                                 <li><a href="#" class="hover-style-link text-black font-weight--bold">(+53)1221 09877</a></li>
                             </ul>
                         </div>
@@ -83,24 +83,38 @@
 
                 </div>
             </div>
-        </div>
+        </div>*@
         <!--====================  Conact us info End  ====================-->
+
+        <!--====================  Map start  ====================-->
 
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14479.353435723538!2d67.08220445!3d24.8693697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3f2a67c5c9394c60!2sAnum%20blessing!5e0!3m2!1sen!2s!4v1602497062150!5m2!1sen!2s" style="width:100%;border:0;" height="400" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
+        <!--========== Map End ============-->
+
         <!--========== Call to Action Area Start ============-->
-        <div class="cta-image-area_one section-space--ptb_80 cta-bg-image_two">
+        <div class="contact-us-section-wrappaer processing-contact-us-bg section-space--ptb_120">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-xl-8 col-lg-7">
-                        <div class="cta-content md-text-center">
-                            <h3 class="heading">We run all kinds of IT services that vow your <span class="text-color-primary"> success</span></h3>
+                    <div class="col-lg-6 col-lg-6">
+                        <div class="conact-us-wrap-one">
+                            <h3 class="heading text-white">Obtaining further information by make a contact with our experienced IT staffs. </h3>
+
+                            <div class="sub-heading text-white">We’re available for 8 hours a day!<br>Contact to require a detailed analysis and assessment of your plan.</div>
+
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-5">
-                        <div class="cta-button-group--two text-center">
-                            <a href="#" class="btn btn--white btn-one"><span class="btn-icon mr-2"><i class="far fa-comment-alt-dots"></i></span> Let's talk</a>
-                            <a href="#" class="btn btn--secondary btn-two "><span class="btn-icon mr-2"><i class="far fa-info-circle"></i></span> Get info</a>
+
+                    <div class="col-lg-6 col-lg-6">
+                        <div class="contact-info-two text-center">
+                            <div class="icon">
+                                <span class="fal fa-phone"></span>
+                            </div>
+                            <h6 class="heading font-weight--reguler">Reach out now!</h6>
+                            <h2 class="call-us"><a href="tel:02134527965">02134527965</a></h2>
+                            @*<div class="contact-us-button mt-20">
+                                <a href="#" class="btn btn--secondary">Contact us</a>
+                            </div>*@
                         </div>
                     </div>
                 </div>
