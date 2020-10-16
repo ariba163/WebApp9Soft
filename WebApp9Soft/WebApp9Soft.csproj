@@ -256,6 +256,7 @@
     <Content Include="assets\images\demo-images\home-04.jpg" />
     <Content Include="assets\images\demo-images\home-05.jpg" />
     <Content Include="assets\images\demo-images\home-06.jpg" />
+    <Content Include="assets\images\Favicon.ico" />
     <Content Include="assets\images\favicon.png" />
     <Content Include="assets\images\features\home-services-case-study-slide-image-01.png" />
     <Content Include="assets\images\features\home-services-case-study-slide-image-02.png" />
@@ -530,6 +531,8 @@
     <Content Include="Views\Services\SocialMediaDetail.cshtml" />
     <Content Include="Views\Services\GraphicsDetail.cshtml" />
     <Content Include="Views\Services\ECommerceDetail.cshtml" />
+    <Content Include="Views\Home\pvConactusSection.cshtml" />
+    <Content Include="Views\Home\pvTestimonialSection.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

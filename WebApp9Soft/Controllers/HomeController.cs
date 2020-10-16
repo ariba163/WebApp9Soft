@@ -98,5 +98,15 @@ namespace WebApp9Soft.Controllers
         }
 
 
+
+
+        public ActionResult pvConactusSection()
+        {
+            return View();
+        }
+        public ActionResult pvTestimonialSection()
+        {
+            return View();
+        }
     }
 }

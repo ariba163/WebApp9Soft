@@ -13,3 +13,15 @@
 .feature-list__one .icon-box-wrap {
     height: 360px;
 }
+
+
+.breadcrumb-title{
+    color:#fff;
+}
+.breadcrumb-item {
+    color: #333333;
+}
+
+.breadcrumb-list li.active {
+    color: #fff;
+}
