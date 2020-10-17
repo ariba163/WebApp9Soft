@@ -125,6 +125,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ViewModels\contact.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -420,6 +421,7 @@
     <Content Include="assets\images\timeline\timeline-image-01.jpg" />
     <Content Include="assets\images\timeline\timeline-image-02.jpg" />
     <Content Include="assets\img\loading.gif" />
+    <Content Include="assets\js\custom.js" />
     <Content Include="assets\js\main.js" />
     <Content Include="assets\js\plugins\animation-text.min.js" />
     <Content Include="assets\js\plugins\circle-progress.min.js" />
@@ -536,7 +538,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

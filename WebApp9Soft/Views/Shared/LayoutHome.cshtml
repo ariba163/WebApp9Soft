@@ -22,7 +22,8 @@
     <link rel="stylesheet" href="~/assets/css/style.css">
     <link rel="stylesheet" href="~/assets/css/custom.css">
 
-   
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+    <script src="~/assets/js/custom.js"></script>
 </head>
 
 <body>
@@ -54,6 +55,7 @@
 
 
 
+    <div class="notLoad">
     <!--====================  header area ====================-->
     <div class="header-area header-area--absolute">
 
@@ -63,8 +65,8 @@
                     <div class="col-md-12">
                         <div class="top-bar-wrap">
                             @*<div class="top-bar-left">
-                                <div class="top-bar-text text-white"><a href="#" class="font-medium display-inline">Now Hiring:</a> Are you a driven and motivated 1st Line IT Support Engineer?</div>
-                            </div>*@
+                                    <div class="top-bar-text text-white"><a href="#" class="font-medium display-inline">Now Hiring:</a> Are you a driven and motivated 1st Line IT Support Engineer?</div>
+                                </div>*@
                             <div class="top-bar-left">
                                 <ul class="top-bar-info">
                                     <li class="info-item">
@@ -76,30 +78,30 @@
                                 </ul>
                             </div>
                             <div class="top-bar-right">
-                                        <ul class="list ht-social-networks ">
+                                <ul class="list ht-social-networks ">
 
-                                            <li class="item">
-                                                <a href="https://twitter.com/" target="_blank" aria-label="Twitter" class="social-link hint--bounce hint--bottom hint--primary">
-                                                    <i class="fab fa-twitter link-icon text-white"></i>
-                                                </a>
-                                            </li>
-                                            <li class="item">
-                                                <a href="https://www.facebook.com/9SoftSolutions" target="_blank" aria-label="Facebook" class="social-link hint--bounce hint--bottom hint--primary">
-                                                    <i class="fab fa-facebook-f link-icon text-white"></i>
-                                                </a>
-                                            </li>
-                                            <li class="item">
-                                                <a href="https://instagram.com/" target="_blank" aria-label="Instagram" class="social-link hint--bounce hint--bottom hint--primary">
-                                                    <i class="fab fa-instagram link-icon text-white"></i>
-                                                </a>
-                                            </li>
-                                            <li class="item">
-                                                <a href="https://linkedin.com/" target="_blank" aria-label="Linkedin" class="social-link hint--bounce hint--bottom hint--primary">
-                                                    <i class="fab fa-linkedin link-icon text-white"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                      
+                                    <li class="item">
+                                        <a href="https://twitter.com/9SoftSolutions1" target="_blank" aria-label="Twitter" class="social-link hint--bounce hint--bottom hint--primary">
+                                            <i class="fab fa-twitter link-icon text-white"></i>
+                                        </a>
+                                    </li>
+                                    <li class="item">
+                                        <a href="https://www.facebook.com/9SoftSolutions" target="_blank" aria-label="Facebook" class="social-link hint--bounce hint--bottom hint--primary">
+                                            <i class="fab fa-facebook-f link-icon text-white"></i>
+                                        </a>
+                                    </li>
+                                    <li class="item">
+                                        <a href="https://www.instagram.com/9soft_solutions" target="_blank" aria-label="Instagram" class="social-link hint--bounce hint--bottom hint--primary">
+                                            <i class="fab fa-instagram link-icon text-white"></i>
+                                        </a>
+                                    </li>
+                                    @*<li class="item">
+                                            <a href="https://linkedin.com/" target="_blank" aria-label="Linkedin" class="social-link hint--bounce hint--bottom hint--primary">
+                                                <i class="fab fa-linkedin link-icon text-white"></i>
+                                            </a>
+                                        </li>*@
+                                </ul>
+
                             </div>
                         </div>
                     </div>
@@ -126,25 +128,25 @@
                                         <ul>
                                             <li class="">
                                                 <a href="@Url.Action("Index","Home")"><span>Home</span></a>
-                                            
+
                                             </li>
                                             <li class="">
                                                 <a href="@Url.Action("About","Home")"><span>About us</span></a>
-                                                
+
                                             </li>
                                             <li class="">
                                                 <a href="@Url.Action("Contact","Home")"><span>Contact us</span></a>
                                             </li>
                                             <li class="">
                                                 <a href="@Url.Action("Index","Services")"><span>Services</span></a>
-                                                
+
                                             </li>
-                                            
+
                                         </ul>
                                     </nav>
                                 </div>
 
-                                <div class="header-search-form-two white-icon">
+                                @*<div class="header-search-form-two white-icon">
                                     <form action="#" class="search-form-top-active">
                                         <div class="search-icon" id="search-overlay-trigger">
                                             <a href="javascript:void(0)">
@@ -152,7 +154,7 @@
                                             </a>
                                         </div>
                                     </form>
-                                </div>
+                                </div>*@
 
                                 <!-- mobile menu -->
                                 <div class="mobile-navigation-icon white-md-icon d-block d-xl-none" id="mobile-menu-trigger">
@@ -174,94 +176,94 @@
 
 
     <!--====================  footer area ====================-->
-<div class="footer-area-wrapper reveal-footer bg-gray">
-    <div class="footer-area section-space--ptb_80">
-        <div class="container">
-            <div class="row footer-widget-wrapper">
-                <div class="col-lg-4 col-md-6 col-sm-6 footer-widget">
-                    <div class="footer-widget__logo w-75 mb-30">
-                        <img src="~/assets/images/logo/LogoDark.png" class="img-fluid" alt="">
+    <div class="footer-area-wrapper reveal-footer bg-gray">
+        <div class="footer-area section-space--ptb_80">
+            <div class="container">
+                <div class="row footer-widget-wrapper">
+                    <div class="col-lg-4 col-md-6 col-sm-6 footer-widget">
+                        <div class="footer-widget__logo w-75 mb-30">
+                            <img src="~/assets/images/logo/LogoDark.png" class="img-fluid" alt="">
+                        </div>
+                        <ul class="footer-widget__list">
+                            <li>304, Anum blessing KCHSU main Sharah-E-faisal, Karachi.</li>
+                            <li><a href="mailto:info@9softsolutions.pk" class="hover-style-link">info@9softsolutions.pk</a></li>
+                            <li><a href="tel:02134527965" class="hover-style-link text-black font-weight--bold">02134527965</a></li>
+                        </ul>
                     </div>
-                    <ul class="footer-widget__list">
-                        <li>304, Anum blessing KCHSU main Sharah-E-faisal, Karachi.</li>
-                        <li><a href="mailto:info@9softsolutions.pk" class="hover-style-link">info@9softsolutions.pk</a></li>
-                        <li><a href="tel:02134527965" class="hover-style-link text-black font-weight--bold">02134527965</a></li>
-                    </ul>
+                    <div class="col-lg-4 col-md-4 col-sm-6 footer-widget">
+                        <h6 class="footer-widget__title mb-20">Services</h6>
+                        <ul class="footer-widget__list">
+                            <li><a href="@Url.Action("GraphicsDetail","Services")" class="hover-style-link">Graphics Design</a></li>
+                            <li><a href="@Url.Action("SEODetail","Services")" class="hover-style-link">SEO</a></li>
+                            <li><a href="@Url.Action("SocialMediaDetail","Services")" class="hover-style-link">Social Media Management</a></li>
+                            <li><a href="@Url.Action("ECommerceDetail","Services")" class="hover-style-link">E-Commerce Platform</a></li>
+                            <li><a href="@Url.Action("WebDevDetail","Services")" class="hover-style-link">Web Design & Development</a></li>
+                            <li><a href="@Url.Action("WebHostingDetail","Services")" class="hover-style-link">Web Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 footer-widget">
+                        <h6 class="footer-widget__title mb-20">Quick links</h6>
+                        <ul class="footer-widget__list">
+                            <li><a href="#" class="hover-style-link">About 9Soft Solutions</a></li>
+                            <li><a href="#" class="hover-style-link">Our Services</a></li>
+                            <li><a href="#" class="hover-style-link">Contact us</a></li>
+                        </ul>
+                    </div>
+                    @*<div class="col-lg-3 col-md-4 col-sm-6 footer-widget">
+                            <h6 class="footer-widget__title mb-20">Support</h6>
+                            <ul class="footer-widget__list">
+                                <li><a href="#" class="hover-style-link">Forum Support</a></li>
+                                <li><a href="#" class="hover-style-link">Help & FAQ</a></li>
+                                <li><a href="@Url.Action("Contact","Home")" class="hover-style-link">Contact Us</a></li>
+                                <li><a href="#" class="hover-style-link">Pricing and plans</a></li>
+                                <li><a href="#" class="hover-style-link">Cookies Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
+                                <div class="footer-widget__title section-space--mb_50"></div>
+                                <ul class="footer-widget__list">
+                                    <li><a href="#" class="image_btn"><img class="img-fluid" src="~/assets/images/icons/aeroland-button-google-play.jpg" alt=""></a></li>
+                                    <li><a href="#" class="image_btn"><img class="img-fluid" src="~/assets/images/icons/aeroland-button-app-store.jpg" alt=""></a></li>
+                                </ul>
+                            </div>*@
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 footer-widget">
-                    <h6 class="footer-widget__title mb-20">Services</h6>
-                    <ul class="footer-widget__list">
-                        <li><a href="@Url.Action("GraphicsDetail","Services")" class="hover-style-link">Graphics Design</a></li>
-                        <li><a href="@Url.Action("SEODetail","Services")" class="hover-style-link">SEO</a></li>
-                        <li><a href="@Url.Action("SocialMediaDetail","Services")" class="hover-style-link">Social Media Management</a></li>
-                        <li><a href="@Url.Action("ECommerceDetail","Services")" class="hover-style-link">E-Commerce Platform</a></li>
-                        <li><a href="@Url.Action("WebDevDetail","Services")" class="hover-style-link">Web Design & Development</a></li>
-                        <li><a href="@Url.Action("WebHostingDetail","Services")" class="hover-style-link">Web Hosting</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 footer-widget">
-                    <h6 class="footer-widget__title mb-20">Quick links</h6>
-                    <ul class="footer-widget__list">
-                        <li><a href="#" class="hover-style-link">About 9Soft Solutions</a></li>
-                        <li><a href="#" class="hover-style-link">Our Services</a></li>
-                        <li><a href="#" class="hover-style-link">Contact us</a></li>
-                    </ul>
-                </div>
-                @*<div class="col-lg-3 col-md-4 col-sm-6 footer-widget">
-            <h6 class="footer-widget__title mb-20">Support</h6>
-            <ul class="footer-widget__list">
-                <li><a href="#" class="hover-style-link">Forum Support</a></li>
-                <li><a href="#" class="hover-style-link">Help & FAQ</a></li>
-                <li><a href="@Url.Action("Contact","Home")" class="hover-style-link">Contact Us</a></li>
-                <li><a href="#" class="hover-style-link">Pricing and plans</a></li>
-                <li><a href="#" class="hover-style-link">Cookies Policy</a></li>
-            </ul>
-        </div>
-        <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
-                <div class="footer-widget__title section-space--mb_50"></div>
-                <ul class="footer-widget__list">
-                    <li><a href="#" class="image_btn"><img class="img-fluid" src="~/assets/images/icons/aeroland-button-google-play.jpg" alt=""></a></li>
-                    <li><a href="#" class="image_btn"><img class="img-fluid" src="~/assets/images/icons/aeroland-button-app-store.jpg" alt=""></a></li>
-                </ul>
-            </div>*@
             </div>
         </div>
-    </div>
-    <div class="footer-copyright-area section-space--pb_30">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6 text-center text-md-left">
-                    <span class="copyright-text">&copy; 2020 9Soft. <a href="#">All Rights Reserved.</a></span>
-                </div>
-                <div class="col-md-6 text-center text-md-right">
-                    <ul class="list ht-social-networks solid-rounded-icon">
+        <div class="footer-copyright-area section-space--pb_30">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-left">
+                        <span class="copyright-text">&copy; 2020 9Soft. <a href="#">All Rights Reserved.</a></span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-right">
+                        <ul class="list ht-social-networks solid-rounded-icon">
 
-                        <li class="item">
-                            <a href="https://twitter.com/" target="_blank" aria-label="Twitter" class="social-link hint--bounce hint--top hint--primary">
-                                <i class="fab fa-twitter link-icon"></i>
-                            </a>
-                        </li>
-                        <li class="item">
-                            <a href="https://www.facebook.com/9SoftSolutions" target="_blank" aria-label="Facebook" class="social-link hint--bounce hint--top hint--primary">
-                                <i class="fab fa-facebook-f link-icon"></i>
-                            </a>
-                        </li>
-                        <li class="item">
-                            <a href="https://instagram.com/" target="_blank" aria-label="Instagram" class="social-link hint--bounce hint--top hint--primary">
-                                <i class="fab fa-instagram link-icon"></i>
-                            </a>
-                        </li>
-                        <li class="item">
-                            <a href="https://linkedin.com/" target="_blank" aria-label="Linkedin" class="social-link hint--bounce hint--top hint--primary">
-                                <i class="fab fa-linkedin link-icon"></i>
-                            </a>
-                        </li>
-                    </ul>
+                            <li class="item">
+                                <a href="https://twitter.com/9SoftSolutions1" target="_blank" aria-label="Twitter" class="social-link hint--bounce hint--top hint--primary">
+                                    <i class="fab fa-twitter link-icon"></i>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="https://www.facebook.com/9SoftSolutions" target="_blank" aria-label="Facebook" class="social-link hint--bounce hint--top hint--primary">
+                                    <i class="fab fa-facebook-f link-icon"></i>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="https://www.instagram.com/9soft_solutions" target="_blank" aria-label="Instagram" class="social-link hint--bounce hint--top hint--primary">
+                                    <i class="fab fa-instagram link-icon"></i>
+                                </a>
+                            </li>
+                            @*<li class="item">
+                                    <a href="https://linkedin.com/" target="_blank" aria-label="Linkedin" class="social-link hint--bounce hint--top hint--primary">
+                                        <i class="fab fa-linkedin link-icon"></i>
+                                    </a>
+                                </li>*@
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
     <!--====================  End of footer area  ====================-->
     <!--====================  scroll top ====================-->
     <a href="#" class="scroll-top" id="scroll-top">
@@ -275,49 +277,49 @@
         <div class="aeroland__toolbar">
             <div class="inner">
                 @*<a class="quick-option hint--bounce hint--left hint--black primary-color-hover-important" href="#" aria-label="Quick Options">
-                    <i class="fal fa-project-diagram"></i>
-                </a>*@
+                        <i class="fal fa-project-diagram"></i>
+                    </a>*@
                 <a class="hint--bounce hint--left hint--black primary-color-hover-important" target="_blank" href="@Url.Action("Contact","Home")" aria-label="Support Center">
                     <i class="fal fa-life-ring"></i>
                 </a>
                 @*<a class="hint--bounce hint--left hint--black primary-color-hover-important" target="_blank" href="#" aria-label="Purchase 9Soft Solution">
-                    <i class="fal fa-shopping-cart"></i>
-                </a>*@
+                        <i class="fal fa-shopping-cart"></i>
+                    </a>*@
             </div>
         </div>
         <!-- End Toolbar -->
         <!-- Start Quick Link -->
         @*<div class="demo-option-wrapper">
-            <div class="demo-panel-header">
-                <div class="title">
-                    <h6 class="heading mt-30">9Soft Solution - Technology, IT Solutions & Services Html5 Template</h6>
-                </div>
+                <div class="demo-panel-header">
+                    <div class="title">
+                        <h6 class="heading mt-30">9Soft Solution - Technology, IT Solutions & Services Html5 Template</h6>
+                    </div>
 
-                <div class="panel-btn mt-20">
-                    <a class="ht-btn ht-btn-md" href="#"><i class="far fa-shopping-cart mr-2"></i> Buy Now </a>
+                    <div class="panel-btn mt-20">
+                        <a class="ht-btn ht-btn-md" href="#"><i class="far fa-shopping-cart mr-2"></i> Buy Now </a>
+                    </div>
                 </div>
-            </div>
-            <div class="demo-quick-option-list">
-                <a class="link hint--bounce hint--black hint--top hint--dark" href="#" aria-label="Appointment">
-                    <img class="img-fluid" src="~/assets/images/demo-images/home-01.jpg" alt="Images">
-                </a>
-                <a class="link hint--bounce hint--black hint--top hint--dark" href="#" aria-label="Infotechno">
-                    <img class="img-fluid" src="~/assets/images/demo-images/home-02.jpg" alt="Images">
-                </a>
-                <a class="link hint--bounce hint--black hint--top hint--dark" href="#" aria-label="Processing">
-                    <img class="img-fluid" src="~/assets/images/demo-images/home-03.jpg" alt="Images">
-                </a>
-                <a class="link hint--bounce hint--black hint--top hint--dark" href="#" aria-label="Services">
-                    <img class="img-fluid" src="~/assets/images/demo-images/home-04.jpg" alt="Images">
-                </a>
-                <a class="link hint--bounce hint--black hint--top hint--dark" href="#" aria-label="Resolutions">
-                    <img class="img-fluid" src="~/assets/images/demo-images/home-05.jpg" alt="Images">
-                </a>
-                <a class="link hint--bounce hint--black hint--top hint--dark" href="#" aria-label="Cybersecurity">
-                    <img class="img-fluid" src="~/assets/images/demo-images/home-06.jpg" alt="Images">
-                </a>
-            </div>
-        </div>*@
+                <div class="demo-quick-option-list">
+                    <a class="link hint--bounce hint--black hint--top hint--dark" href="#" aria-label="Appointment">
+                        <img class="img-fluid" src="~/assets/images/demo-images/home-01.jpg" alt="Images">
+                    </a>
+                    <a class="link hint--bounce hint--black hint--top hint--dark" href="#" aria-label="Infotechno">
+                        <img class="img-fluid" src="~/assets/images/demo-images/home-02.jpg" alt="Images">
+                    </a>
+                    <a class="link hint--bounce hint--black hint--top hint--dark" href="#" aria-label="Processing">
+                        <img class="img-fluid" src="~/assets/images/demo-images/home-03.jpg" alt="Images">
+                    </a>
+                    <a class="link hint--bounce hint--black hint--top hint--dark" href="#" aria-label="Services">
+                        <img class="img-fluid" src="~/assets/images/demo-images/home-04.jpg" alt="Images">
+                    </a>
+                    <a class="link hint--bounce hint--black hint--top hint--dark" href="#" aria-label="Resolutions">
+                        <img class="img-fluid" src="~/assets/images/demo-images/home-05.jpg" alt="Images">
+                    </a>
+                    <a class="link hint--bounce hint--black hint--top hint--dark" href="#" aria-label="Cybersecurity">
+                        <img class="img-fluid" src="~/assets/images/demo-images/home-06.jpg" alt="Images">
+                    </a>
+                </div>
+            </div>*@
         <!-- End Quick Link -->
     </div>
     <!-- End Toolbar -->
@@ -349,20 +351,20 @@
                     <ul>
                         <li class="">
                             <a href="@Url.Action("Index","Home")">Home</a>
-                            
+
                         </li>
                         <li class="">
                             <a href="@Url.Action("About","Home")">About us</a>
-                            </li>
+                        </li>
 
                         <li class="">
                             <a href="@Url.Action("Contact","Home")">Contact us</a>
                         </li>
                         <li class="">
                             <a href="@Url.Action("Index","Services")">IT Services</a>
-                         
+
                         </li>
-                        
+
                     </ul>
                 </nav>
             </div>
@@ -395,11 +397,22 @@
         </div>
     </div>
     <!--====================  End of search overlay  ====================-->
+    </div>
+
+
+
+
+
+
+
     <!-- JS
     ============================================ -->
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+
+
+
 
 
     <!-- JS
@@ -465,6 +478,9 @@
     -->
     <!-- Main JS -->
     <script src="~/assets/js/main.js"></script>
+
+
+    <script src="~/assets/js/custom.js"></script>
 </body>
 
 

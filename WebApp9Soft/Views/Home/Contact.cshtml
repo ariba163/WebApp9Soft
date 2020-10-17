@@ -40,6 +40,40 @@
                                 </div>
 
                             }
+
+
+
+
+                            @*@using (Html.BeginForm("Contact", "Home", FormMethod.Post, new { @id = "contact-form" }))
+                            {
+                                @Html.AntiForgeryToken()
+                                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                                <div class="contact-form">
+                                    <div class="contact-input">
+                                        <div class="contact-inner">
+                                            @Html.TextBoxFor(model => model.Name, new { @placeholder = " Name *", @type = "text" })
+                                            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                                        </div>
+                                        <div class="contact-inner">
+                                            @Html.TextBoxFor(model => model.Email, new { @placeholder = " Email *", @type = "text" })
+                                            @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                    <div class="contact-inner">
+                                        @Html.TextBoxFor(model => model.Subject, new { @placeholder = " Subject *", @type = "text" })
+                                        @Html.ValidationMessageFor(model => model.Subject, "", new { @class = "text-danger" })
+                                    </div>
+                                    <div class="contact-inner contact-message">
+                                        @Html.TextBoxFor(model => model.Message, new { @placeholder = " Please describe what you need.", @type = "text" })
+                                        @Html.ValidationMessageFor(model => model.Message, "", new { @class = "text-danger" })
+                                    </div>
+                                    <div class="submit-btn mt-20">
+                                        <button class="ht-btn ht-btn-md" type="submit">Send message</button>
+                                    </div>
+                                </div>
+
+                            }*@
                         </div>
                     </div>
                 </div>
