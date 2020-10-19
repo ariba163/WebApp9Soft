@@ -35,6 +35,13 @@
     color: #fff;
 }
 
+.serviceDetailBanner img {
+    width: 100%;
+}
+
+
+
+
 @media (max-width: 992px) {
     .testimonial-slider__one {
         height: auto!important;
