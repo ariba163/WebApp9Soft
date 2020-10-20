@@ -108,5 +108,9 @@ namespace WebApp9Soft.Controllers
         {
             return View();
         }
+        public ActionResult pvLetsTalkSection()
+        {
+            return View();
+        }
     }
 }
