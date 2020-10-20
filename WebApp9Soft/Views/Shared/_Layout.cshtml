@@ -92,22 +92,41 @@
                                         <div class="header-bottom-left-wrap">
                                             <!-- navigation menu -->
                                             <div class="header__navigation d-none d-xl-block">
-                                                <nav class="navigation-menu primary--menu">
+                                                <nav class="navigation-menu">
                                                     <ul>
                                                         <li class="">
                                                             <a href="@Url.Action("Index","Home")"><span>Home</span></a>
                                                         </li>
+                                                        <li class="has-children">
+                                                            <a href="@Url.Action("Index","Services")"><span>Services</span></a>
+                                                            <ul class="megamenu megamenu--mega">
+                                                                <li>
+                                                                    <h2 class="page-list-title">Our Services</h2>
+                                                                </li>
+                                                                <li>
+                                                                    <ul>
+                                                                        <li><a href="@Url.Action("GraphicsDetail","Services")">Graphics Design</a></li>
+                                                                        <li><a href="@Url.Action("WebDevDetail","Services")">Web Design and Development</a></li>
+                                                                        <li><a href="@Url.Action("ECommerceDetail","Services")">ECommerce Platform</a></li>
+                                                                        <li><a href="@Url.Action("WebHostingDetail","Services")">Web Hosting</a></li>
+                                                                    </ul>
+                                                                </li>
+                                                                <li>
+                                                                    <ul>
+                                                                        <li><a href="@Url.Action("SEODetail","Services")">SEO Services</a></li>
+                                                                        <li><a href="@Url.Action("SocialMediaDetail","Services")">Social Media Marketing</a></li>
+                                                                        <li><a href="@Url.Action("DigitalMarketingDetail","Services")">Digital Marketing</a></li>
+                                                                    </ul>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
                                                         <li class="">
                                                             <a href="@Url.Action("About","Home")"><span>About us</span></a>
                                                         </li>
-
                                                         <li class="">
                                                             <a href="@Url.Action("Contact","Home")"><span>Contact us</span></a>
                                                         </li>
 
-                                                        <li class="">
-                                                            <a href="@Url.Action("Index","Services")"><span>Services</span></a>
-                                                        </li>
                                                     </ul>
                                                 </nav>
                                             </div>
