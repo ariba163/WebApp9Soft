@@ -1,4 +1,3 @@
-D:\WebApp9Soft\WebApp9Soft\bin\WebApp9Soft.dll.config
 D:\WebApp9Soft\WebApp9Soft\bin\WebApp9Soft.dll
 D:\WebApp9Soft\WebApp9Soft\bin\WebApp9Soft.pdb
 D:\WebApp9Soft\WebApp9Soft\bin\roslyn\csc.exe

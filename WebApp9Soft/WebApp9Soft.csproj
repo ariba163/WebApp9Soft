@@ -491,6 +491,7 @@
     <Content Include="assets\fonts\lgd641.eot" />
     <Content Include="assets\fonts\lgd641.ttf" />
     <Content Include="assets\fonts\lgd641.woff" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -533,7 +534,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="assets\images\award\" />
     <Folder Include="assets\images\features\" />
-    <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
