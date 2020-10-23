@@ -1,0 +1,49 @@
+﻿/*loader control start*/
+.notLoad {
+    display: none;
+}
+/*loader control end*/
+
+
+.ht-box-images.style-01 .image-box-wrap {
+    height: 420px;
+}
+
+/*limits content*/
+.ht-box-images .content .text, .feature-list__one .icon-box-wrap .text, testimonial-slider__text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.feature-list__one .icon-box-wrap {
+    height: 360px;
+}
+
+.testimonial-slider__one {
+    height: 270px;
+}
+
+.breadcrumb-title {
+    color: #fff;
+}
+.breadcrumb-item {
+    color: #333333;
+}
+
+.breadcrumb-list li.active {
+    color: #fff;
+}
+
+.serviceDetailBanner img {
+    width: 100%;
+}
+
+
+
+
+@media (max-width: 992px) {
+    .testimonial-slider__one {
+        height: auto!important;
+    }
+}

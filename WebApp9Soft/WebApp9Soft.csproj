@@ -149,23 +149,17 @@
     <Content Include="assets\fonts\fa-regular-400.svg" />
     <Content Include="assets\fonts\fa-solid-900.svg" />
     <Content Include="assets\fonts\lgd641.svg" />
-    <Content Include="assets\images\award\mitech-company-award-01-161x110.jpg" />
-    <Content Include="assets\images\award\mitech-company-award-02-161x116.jpg" />
-    <Content Include="assets\images\award\mitech-company-award-03-161x112.jpg" />
-    <Content Include="assets\images\award\mitech-company-award-04-161x109.jpg" />
     <Content Include="assets\images\banner%28new%29\Digital Marketing &amp; Social Media Management.jpg" />
     <Content Include="assets\images\banner%28new%29\E commerce.jpg" />
     <Content Include="assets\images\banner%28new%29\Graphic design banner.jpg" />
     <Content Include="assets\images\banner%28new%29\SEO.jpg" />
     <Content Include="assets\images\banner%28new%29\web design banner.jpg" />
     <Content Include="assets\images\banner%28new%29\web hosting.jpg" />
-    <Content Include="assets\images\banners\home-cybersecurity-contact-bg-image.png" />
     <Content Include="assets\images\banners\home-processing-video-intro-slider-slide-01-image-01.jpg" />
     <Content Include="assets\images\banners\home-processing-video-intro-slider-slide-01-image-02.jpg" />
     <Content Include="assets\images\banners\home-processing-video-intro-slider-slide-01-image-03.jpg" />
     <Content Include="assets\images\banners\home-processing-video-intro-slider-slide-01-image-04.jpg" />
     <Content Include="assets\images\banners\home-processing-video-intro-slider-slide-01-image-05.jpg" />
-    <Content Include="assets\images\banners\managed-it-services-book-cover.png" />
     <Content Include="assets\images\bg\business-solution-hero-bg.jpg" />
     <Content Include="assets\images\bg\contact-us-01-hero-bg.jpg" />
     <Content Include="assets\images\bg\faqs-video-poster.jpg" />
@@ -226,7 +220,6 @@
     <Content Include="assets\images\blog\blog-08-480x312.jpg" />
     <Content Include="assets\images\blog\blog-08-540x330.jpg" />
     <Content Include="assets\images\blog\blog-08-770x420.jpg" />
-    <Content Include="assets\images\blog\blog-sidebar-ads.jpg" />
     <Content Include="assets\images\box-image\blog-01-330x330.jpg" />
     <Content Include="assets\images\box-image\blog-01-480x298.jpg" />
     <Content Include="assets\images\box-image\home-processing-software-image-01.jpg" />
@@ -263,25 +256,13 @@
     <Content Include="assets\images\demo-images\home-04.jpg" />
     <Content Include="assets\images\demo-images\home-05.jpg" />
     <Content Include="assets\images\demo-images\home-06.jpg" />
-    <Content Include="assets\images\Favicon.ico" />
-    <Content Include="assets\images\favicon.png" />
-    <Content Include="assets\images\features\home-services-case-study-slide-image-01.png" />
-    <Content Include="assets\images\features\home-services-case-study-slide-image-02.png" />
     <Content Include="assets\images\flags\de.png" />
     <Content Include="assets\images\flags\en.png" />
     <Content Include="assets\images\flags\fr.png" />
-    <Content Include="assets\images\gallery%28new%29\Gallery Image 1.jpg" />
-    <Content Include="assets\images\gallery%28new%29\Gallery Image 2.jpg" />
-    <Content Include="assets\images\gallery%28new%29\Gallery Image 3.jpg" />
-    <Content Include="assets\images\gallery%28new%29\Gallery Image 4.jpg" />
     <Content Include="assets\images\gallery\blog-06-960x960.jpg" />
     <Content Include="assets\images\gallery\blog-07-960x960.jpg" />
     <Content Include="assets\images\gallery\blog-08-960x960.jpg" />
     <Content Include="assets\images\gallery\careers-gallery-image-01-960x960.jpg" />
-    <Content Include="assets\images\gallery\Gallery Image 1.jpg" />
-    <Content Include="assets\images\gallery\Gallery Image 2.jpg" />
-    <Content Include="assets\images\gallery\Gallery Image 3.jpg" />
-    <Content Include="assets\images\gallery\Gallery Image 4.jpg" />
     <Content Include="assets\images\hero\home-appointment-hero-bg-image.jpg" />
     <Content Include="assets\images\hero\home-infotechno-main-slider-slide-01-image-01.png" />
     <Content Include="assets\images\hero\home-infotechno-main-slider-slide-01-image-02.png" />
@@ -358,10 +339,6 @@
     <Content Include="assets\images\icons\vectors\web design.png" />
     <Content Include="assets\images\icons\vectors\web development.png" />
     <Content Include="assets\images\icons\vectors\web hosting.png" />
-    <Content Include="assets\images\logo\dark-logo-160x48.png" />
-    <Content Include="assets\images\logo\dark-logo.png" />
-    <Content Include="assets\images\logo\light-logo.png" />
-    <Content Include="assets\images\logo\logo-dark.png" />
     <Content Include="assets\images\logo\LogoDark.png" />
     <Content Include="assets\images\logo\LogoLight.png" />
     <Content Include="assets\images\other\mitech-slider-client-logos-logo-01.png" />
@@ -424,14 +401,14 @@
     <Content Include="assets\images\team\team-member-07-370x250.jpg" />
     <Content Include="assets\images\team\team-member-07-370x455.jpg" />
     <Content Include="assets\images\testimonial\90x90.jpg" />
+    <Content Include="assets\images\testimonial\90x901.jpg" />
+    <Content Include="assets\images\testimonial\90x902.jpg" />
+    <Content Include="assets\images\testimonial\90x903.jpg" />
     <Content Include="assets\images\testimonial\mitech-testimonial-avata-01-70x70.jpg" />
-    <Content Include="assets\images\testimonial\mitech-testimonial-avata-01-90x90.jpg" />
     <Content Include="assets\images\testimonial\mitech-testimonial-avata-02-70x70.jpg" />
-    <Content Include="assets\images\testimonial\mitech-testimonial-avata-02-90x90.jpg" />
     <Content Include="assets\images\testimonial\mitech-testimonial-avata-03-70x70.jpg" />
     <Content Include="assets\images\testimonial\mitech-testimonial-avata-03-90x90.jpg" />
     <Content Include="assets\images\testimonial\mitech-testimonial-avata-04-70x70.jpg" />
-    <Content Include="assets\images\testimonial\mitech-testimonial-avata-04-90x90.jpg" />
     <Content Include="assets\images\timeline\blog-07-500x350.jpg" />
     <Content Include="assets\images\timeline\timeline-image-01.jpg" />
     <Content Include="assets\images\timeline\timeline-image-02.jpg" />
@@ -554,6 +531,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="assets\images\award\" />
+    <Folder Include="assets\images\features\" />
+    <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -571,6 +551,9 @@
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
