@@ -75,3 +75,4 @@ D:\WebApp9Soft\WebApp9Soft\obj\Debug\WebApp9Soft.csprojAssemblyReference.cache
 D:\WebApp9Soft\WebApp9Soft\obj\Debug\WebApp9Soft.csproj.CopyComplete
 D:\WebApp9Soft\WebApp9Soft\obj\Debug\WebApp9Soft.dll
 D:\WebApp9Soft\WebApp9Soft\obj\Debug\WebApp9Soft.pdb
+D:\WebApp9Soft\WebApp9Soft\bin\WebApp9Soft.dll.config
