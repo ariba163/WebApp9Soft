@@ -4,8 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="">
-    <title>@ViewBag.Title - 9Soft Technologies</title>
+    <meta name="description" content="@ViewBag.description">
+    <meta name="keywords" content="@ViewBag.keywords">
+    <title>@ViewBag.Title - 9Soft Solutions</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
     <!-- Favicon -->
@@ -18,7 +19,7 @@
 
 
     <!-- Main Style CSS -->
-    <link rel="stylesheet" href="~/assets/css/style.css">
+    <link rel="stylesheet" href="~/assets/css/style.min.css">
     <link rel="stylesheet" href="~/assets/css/custom.css">
 
 
@@ -80,7 +81,7 @@
                             <!-- brand logo -->
                             <div class="header__logo">
                                 <a href="@Url.Action("Index","Home")">
-                                    <img src="~/assets/images/logo/LogoDark.png" class="img-fluid" alt="">
+                                    <img src="~/assets/images/logo/LogoDark.png" class="img-fluid" alt="9Soft Solution logo">
                                 </a>
                             </div>
 
@@ -100,11 +101,8 @@
                                                             <a href="@Url.Action("Index","Services")"><span>Services</span></a>
                                                             <ul class="megamenu megamenu--mega">
                                                                 <li>
-                                                                    <h2 class="page-list-title">Our Services</h2>
-                                                                    <p class="text">
-                                                                        Preparing for your success,
-                                                                        we provide truly prominent software solutions.
-                                                                    </p>
+                                                                    <h2 class="page-list-title">We Take Challenges</h2>
+                                                                    <p>9Soft Solution are ready to take challenges and translate those challenges into creative solution services which based on our customers’ <strong>goals, global guidelines and trends.</strong></p>
                                                                 </li>
                                                                 <li>
                                                                     <ul>
@@ -200,7 +198,6 @@
         </div>
     </div>
     <!-- Header Bottom Wrap End -->
-    
     <!--====================  End of header area  ====================-->
     @RenderBody()
 
@@ -215,7 +212,7 @@
                 <div class="row footer-widget-wrapper">
                     <div class="col-lg-4 col-md-6 col-sm-6 footer-widget">
                         <div class="footer-widget__logo w-75 mb-30">
-                            <img src="~/assets/images/logo/LogoDark.png" class="img-fluid" alt="">
+                            <img src="~/assets/images/logo/LogoDark.png" class="img-fluid" alt="9Soft Solution logo">
                         </div>
                         <ul class="footer-widget__list">
                             <li>304, Anum blessing KCHSU main Sharah-E-faisal, Karachi.</li>
@@ -242,23 +239,7 @@
                             <li><a href="#" class="hover-style-link">Contact us</a></li>
                         </ul>
                     </div>
-                    @* <div class="col-lg-3 col-md-4 col-sm-6 footer-widget">
-                             <h6 class="footer-widget__title mb-20">Support</h6>
-                             <ul class="footer-widget__list">
-                                 <li><a href="#" class="hover-style-link">Forum Support</a></li>
-                                 <li><a href="#" class="hover-style-link">Help & FAQ</a></li>
-                                 <li><a href="@Url.Action("Contact","Home")" class="hover-style-link">Contact Us</a></li>
-                                 <li><a href="#" class="hover-style-link">Pricing and plans</a></li>
-                                 <li><a href="#" class="hover-style-link">Cookies Policy</a></li>
-                             </ul>
-                         </div>
-                        <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
-                                 <div class="footer-widget__title section-space--mb_50"></div>
-                                 <ul class="footer-widget__list">
-                                     <li><a href="#" class="image_btn"><img class="img-fluid" src="~/assets/images/icons/aeroland-button-google-play.jpg" alt=""></a></li>
-                                     <li><a href="#" class="image_btn"><img class="img-fluid" src="~/assets/images/icons/aeroland-button-app-store.jpg" alt=""></a></li>
-                                 </ul>
-                             </div>*@
+
                 </div>
             </div>
         </div>
@@ -366,7 +347,7 @@
                             <!-- logo -->
                             <div class="logo">
                                 <a href="@Url.Action("Index","Home")">
-                                    <img src="~/assets/images/logo/LogoDark.png" class="img-fluid" alt="">
+                                    <img src="~/assets/images/logo/LogoDark.png" class="img-fluid" alt="9Soft Solution logo">
                                 </a>
                             </div>
                         </div>
@@ -495,8 +476,7 @@
     <script src="~/assets/js/plugins/animation-text.min.js"></script>
 
     <!-- Vivus JS -->
-    <script src="~/assets/js/plugins/vivus.min.js"></script>
-
+    <!--<script src="~/assets/js/plugins/vivus.min.js"></script>-->
     <!-- Some plugins JS -->
     <script src="~/assets/js/plugins/some-plugins.js"></script>
 
@@ -506,7 +486,7 @@
     <script src="~/assets/js/plugins/plugins.min.js"></script>
     -->
     <!-- Main JS -->
-    <script src="~/assets/js/main.js"></script>
+    <script src="~/assets/js/main.min.js"></script>
 
 </body>
 

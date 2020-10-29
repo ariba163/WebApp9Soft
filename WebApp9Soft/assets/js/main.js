@@ -920,23 +920,23 @@
     
     $('.counter').counterUp({
         delay: 10,
-        time: 1000
+        time: 2000
     });
    
     /*===================================
         Svg Icon Draw
     ====================================*/ 
-    var $svgIconBox = $('.single-svg-icon-box');
-    $svgIconBox.each(function() {
-        var $this = $(this),
-            $svgIcon = $this.find('.svg-icon'),
-            $id = $svgIcon.attr('id'),
-            $icon = $svgIcon.data('svg-icon');
-        var $vivus = new Vivus($id, { duration: 100, file: $icon });
-        $this.on('mouseenter', function () {
-            $vivus.reset().play();
-        });
-    });
+    //var $svgIconBox = $('.single-svg-icon-box');
+    //$svgIconBox.each(function() {
+    //    var $this = $(this),
+    //        $svgIcon = $this.find('.svg-icon'),
+    //        $id = $svgIcon.attr('id'),
+    //        $icon = $svgIcon.data('svg-icon');
+    //    var $vivus = new Vivus($id, { duration: 100, file: $icon });
+    //    $this.on('mouseenter', function () {
+    //        $vivus.reset().play();
+    //    });
+    //});
     
     /*=====================================
     =          Countdown Time Circles     =

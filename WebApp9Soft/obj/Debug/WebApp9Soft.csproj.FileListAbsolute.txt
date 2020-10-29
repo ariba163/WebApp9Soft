@@ -71,7 +71,6 @@ D:\WebApp9Soft\WebApp9Soft\bin\System.Web.WebPages.Razor.xml
 D:\WebApp9Soft\WebApp9Soft\bin\Newtonsoft.Json.xml
 D:\WebApp9Soft\WebApp9Soft\bin\Antlr3.Runtime.pdb
 D:\WebApp9Soft\WebApp9Soft\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\WebApp9Soft\WebApp9Soft\obj\Debug\WebApp9Soft.csprojAssemblyReference.cache
 D:\WebApp9Soft\WebApp9Soft\obj\Debug\WebApp9Soft.csproj.CopyComplete
 D:\WebApp9Soft\WebApp9Soft\obj\Debug\WebApp9Soft.dll
 D:\WebApp9Soft\WebApp9Soft\obj\Debug\WebApp9Soft.pdb

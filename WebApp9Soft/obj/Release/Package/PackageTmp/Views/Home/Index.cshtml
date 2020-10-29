@@ -1,19 +1,25 @@
 ﻿@{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/LayoutHome.cshtml";
+    ViewBag.keywords = "9Soft Solutions,Software Company";
+    ViewBag.description = "Wants to accelerate your businesses, products, and solutions? 9 Soft solution,+" +
+                          "Software Development Company that develops innovative and creative products and services.";
 }
 
 
     <div class="site-wrapper-reveal">
         <!--============ Resolutions Hero Start ============-->
         <div class="service-hero-wrapper resolutions-hero-space resolutions-hero-bg position-relative">
-            <div class="container">
+            <video autoplay muted loop style="width:100%;position:absolute;top:0;left:0;">
+                <source src="~/assets/videos/VID-20201029-WA0002.mp4" type="video/mp4" />
+            </video>
+            @*<div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 ml-auto mr-auto">
                         <div class="service-hero-wrap wow move-up">
                             <div class="service-hero-text text-center">
                                 <h3 class="text-white">Develops your business with</h3>
-                                <h1 class="font-weight--reguler text-white mb-30"><span class="text-color-primary">9 Soft Solutions</span></h1>
+                                <h1 class="font-weight--reguler text-white mb-30"><span class="text-color-primary">9 Soft Solution</span></h1>
                                 <p class="text-white text-capitalize">great innovations start here!</p>
 
                                 <div class="hero-button-group section-space--mt_50">
@@ -24,12 +30,12 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="vc_row-separator center_curve_alt bottom">
+            </div>*@
+            @*<div class="vc_row-separator center_curve_alt bottom">
                 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="none" viewBox="0 0 100 100">
                     <path d="M 0 0 L0 100 L100 100 L100 0 Q 50 200 0 0"></path>
                 </svg>
-            </div>
+            </div>*@
         </div>
         <!--============ Resolutions Hero End ============-->
         <!--===========  feature-images-wrapper  Start =============-->
@@ -47,10 +53,10 @@
                                         <div class="image-box-wrap">
                                             <div class="box-image">
                                                 <div class="default-image">
-                                                    <img class="img-fulid" src="~/assets/images/icons/vectors/web development.png" alt="" style="height:108px;">
+                                                    <img class="img-fulid" src="~/assets/images/icons/vectors/web development.png" alt="web development icon" style="height:108px;">
                                                 </div>
                                                 <div class="hover-images">
-                                                    <img class="img-fulid" src="~/assets/images/icons/attachments/web development white.png" alt="" style="height:108px;">
+                                                    <img class="img-fulid" src="~/assets/images/icons/attachments/web development white.png" alt="web development icon" style="height:108px;">
                                                 </div>
                                             </div>
                                             <div class="content">
@@ -78,10 +84,10 @@
                                         <div class="image-box-wrap">
                                             <div class="box-image">
                                                 <div class="default-image">
-                                                    <img class="img-fulid" src="~/assets/images/icons/vectors/Graphics.png" alt="" style="height:108px;">
+                                                    <img class="img-fulid" src="~/assets/images/icons/vectors/Graphics.png" alt="Graphics icon" style="height:108px;">
                                                 </div>
                                                 <div class="hover-images">
-                                                    <img class="img-fulid" src="~/assets/images/icons/attachments/Graphics white.png" alt="" style="height:108px;">
+                                                    <img class="img-fulid" src="~/assets/images/icons/attachments/Graphics white.png" alt="Graphics icon" style="height:108px;">
                                                 </div>
                                             </div>
                                             <div class="content">
@@ -110,10 +116,10 @@
                                         <div class="image-box-wrap">
                                             <div class="box-image">
                                                 <div class="default-image">
-                                                    <img class="img-fulid" src="~/assets/images/icons/vectors/Digital Marketing.png" alt="" style="height:108px;">
+                                                    <img class="img-fulid" src="~/assets/images/icons/vectors/Digital Marketing.png" alt="Digital Marketing icon" style="height:108px;">
                                                 </div>
                                                 <div class="hover-images">
-                                                    <img class="img-fulid" src="~/assets/images/icons/attachments/Digital Marketing white.png" alt="" style="height:108px;">
+                                                    <img class="img-fulid" src="~/assets/images/icons/attachments/Digital Marketing white.png" alt="Digital Marketing icon" style="height:108px;">
                                                 </div>
                                             </div>
                                             <div class="content">
@@ -214,7 +220,7 @@
                                     <div class="ht-box-icon style-01">
                                         <div class="icon-box-wrap">
                                             <div class="box-image">
-                                                <img class="img-fulid wow pulse" src="~/assets/images/icons/vectors/Graphics.png" alt="" style="height:108px;">
+                                                <img class="img-fulid wow pulse" src="~/assets/images/icons/vectors/Graphics.png" alt="Graphics icon" style="height:108px;">
                                             </div>
                                             <div class="content">
                                                 <h5 class="heading">Graphics Design</h5>
@@ -239,7 +245,7 @@
                                     <div class="ht-box-icon style-01 single-svg-icon-box">
                                         <div class="icon-box-wrap">
                                             <div class="box-image">
-                                                <img class="img-fulid wow pulse" src="~/assets/images/icons/vectors/SEO.png" alt="" style="height:108px;">
+                                                <img class="img-fulid wow pulse" src="~/assets/images/icons/vectors/SEO.png" alt="SEO icon" style="height:108px;">
                                             </div>
                                             <div class="content">
                                                 <h5 class="heading">SEO</h5>
@@ -264,7 +270,7 @@
                                     <div class="ht-box-icon style-01 single-svg-icon-box">
                                         <div class="icon-box-wrap">
                                             <div class="box-image">
-                                                <img class="img-fulid wow pulse" src="~/assets/images/icons/vectors/social media management.png" alt="" style="height:108px;">
+                                                <img class="img-fulid wow pulse" src="~/assets/images/icons/vectors/social media management.png" alt="SMM icon" style="height:108px;">
                                             </div>
                                             <div class="content">
                                                 <h5 class="heading">Social Media Management</h5>
@@ -289,7 +295,7 @@
                                     <div class="ht-box-icon style-01 single-svg-icon-box">
                                         <div class="icon-box-wrap">
                                             <div class="box-image">
-                                                <img class="img-fulid wow pulse" src="~/assets/images/icons/vectors/e commerce.png" alt="" style="height:108px;">
+                                                <img class="img-fulid wow pulse" src="~/assets/images/icons/vectors/e commerce.png" alt="ECommerce icon" style="height:108px;">
                                             </div>
                                             <div class="content">
                                                 <h5 class="heading">E-Commerce Platform</h5>
@@ -313,7 +319,7 @@
                                     <div class="ht-box-icon style-01 single-svg-icon-box">
                                         <div class="icon-box-wrap">
                                             <div class="box-image">
-                                                <img class="img-fulid wow pulse" src="~/assets/images/icons/vectors/web development.png" alt="" style="height:108px;">
+                                                <img class="img-fulid wow pulse" src="~/assets/images/icons/vectors/web development.png" alt="web development icon" style="height:108px;">
                                             </div>
                                             <div class="content">
                                                 <h5 class="heading">Web Design & Development</h5>
@@ -337,7 +343,7 @@
                                     <div class="ht-box-icon style-01 single-svg-icon-box">
                                         <div class="icon-box-wrap">
                                             <div class="box-image">
-                                                <img class="img-fulid wow pulse" src="~/assets/images/icons/vectors/web hosting.png" alt="" style="height:108px;">
+                                                <img class="img-fulid wow pulse" src="~/assets/images/icons/vectors/web hosting.png" alt="web hosting icon" style="height:108px;">
                                             </div>
                                             <div class="content">
                                                 <h5 class="heading">Web Hosting</h5>
@@ -463,104 +469,103 @@
 
         @Html.Partial("pvLetsTalkSection")
         <!--====================  brand logo slider area ====================-->
-        <div class="brand-logo-slider-area section-space--ptb_60">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <!-- brand logo slider -->
-                        <div class="brand-logo-slider__container-area">
-                            <div class="swiper-container brand-logo-slider__container">
-                                <div class="swiper-wrapper brand-logo-slider__one">
-                                    <div class="swiper-slide brand-logo brand-logo--slider">
-                                        <a href="#">
-                                            <div class="brand-logo__image">
-                                                <img src="~/assets/images/brand/mitech-client-logo-01.png" class="img-fluid" alt="">
-                                            </div>
-                                            <div class="brand-logo__image-hover">
-                                                <img src="~/assets/images/brand/mitech-client-logo-01-hover.png" class="img-fluid" alt="">
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide brand-logo brand-logo--slider">
-                                        <a href="#">
-                                            <div class="brand-logo__image">
-                                                <img src="~/assets/images/brand/mitech-client-logo-02.png" class="img-fluid" alt="">
-                                            </div>
-                                            <div class="brand-logo__image-hover">
-                                                <img src="~/assets/images/brand/mitech-client-logo-02-hover.png" class="img-fluid" alt="">
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide brand-logo brand-logo--slider">
-                                        <a href="#">
-                                            <div class="brand-logo__image">
-                                                <img src="~/assets/images/brand/mitech-client-logo-03.png" class="img-fluid" alt="">
-                                            </div>
-                                            <div class="brand-logo__image-hover">
-                                                <img src="~/assets/images/brand/mitech-client-logo-03-hover.png" class="img-fluid" alt="">
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide brand-logo brand-logo--slider">
-                                        <a href="#">
-                                            <div class="brand-logo__image">
-                                                <img src="~/assets/images/brand/mitech-client-logo-04.png" class="img-fluid" alt="">
-                                            </div>
-                                            <div class="brand-logo__image-hover">
-                                                <img src="~/assets/images/brand/mitech-client-logo-04-hover.png" class="img-fluid" alt="">
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide brand-logo brand-logo--slider">
-                                        <a href="#">
-                                            <div class="brand-logo__image">
-                                                <img src="~/assets/images/brand/mitech-client-logo-05.png" class="img-fluid" alt="">
-                                            </div>
-                                            <div class="brand-logo__image-hover">
-                                                <img src="~/assets/images/brand/mitech-client-logo-05-hover.png" class="img-fluid" alt="">
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide brand-logo brand-logo--slider">
-                                        <a href="#">
-                                            <div class="brand-logo__image">
-                                                <img src="~/assets/images/brand/mitech-client-logo-06.png" class="img-fluid" alt="">
-                                            </div>
-                                            <div class="brand-logo__image-hover">
-                                                <img src="~/assets/images/brand/mitech-client-logo-06-hover.png" class="img-fluid" alt="">
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide brand-logo brand-logo--slider">
-                                        <a href="#">
-                                            <div class="brand-logo__image">
-                                                <img src="~/assets/images/brand/mitech-client-logo-07.png" class="img-fluid" alt="">
-                                            </div>
-                                            <div class="brand-logo__image-hover">
-                                                <img src="~/assets/images/brand/mitech-client-logo-07-hover.png" class="img-fluid" alt="">
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide brand-logo brand-logo--slider">
-                                        <a href="#">
-                                            <div class="brand-logo__image">
-                                                <img src="~/assets/images/brand/mitech-client-logo-08.png" class="img-fluid" alt="">
-                                            </div>
-                                            <div class="brand-logo__image-hover">
-                                                <img src="~/assets/images/brand/mitech-client-logo-08-hover.png" class="img-fluid" alt="">
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide brand-logo brand-logo--slider">
-                                        <a href="#">
-                                            <div class="brand-logo__image">
-                                                <img src="~/assets/images/brand/mitech-client-logo-09.png" class="img-fluid" alt="">
-                                            </div>
-                                            <div class="brand-logo__image-hover">
-                                                <img src="~/assets/images/brand/mitech-client-logo-09-hover.png" class="img-fluid" alt="">
-                                            </div>
-                                        </a>
-                                    </div>
+        <!-- <div class="brand-logo-slider-area section-space--ptb_60">
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-12">
+                   <!-- brand logo slider -->
+        <!-- <div class="brand-logo-slider__container-area">
+                        <div class="swiper-container brand-logo-slider__container">
+                            <div class="swiper-wrapper brand-logo-slider__one">
+                                <div class="swiper-slide brand-logo brand-logo--slider">
+                                    <a href="#">
+                                        <div class="brand-logo__image">
+                                            <img src="~/assets/images/brand/mitech-client-logo-01.png" class="img-fluid" alt="client's logo">
+                                        </div>
+                                        <div class="brand-logo__image-hover">
+                                            <img src="~/assets/images/brand/mitech-client-logo-01-hover.png" class="img-fluid" alt="client's logo">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide brand-logo brand-logo--slider">
+                                    <a href="#">
+                                        <div class="brand-logo__image">
+                                            <img src="~/assets/images/brand/mitech-client-logo-02.png" class="img-fluid" alt="client's logo">
+                                        </div>
+                                        <div class="brand-logo__image-hover">
+                                            <img src="~/assets/images/brand/mitech-client-logo-02-hover.png" class="img-fluid" alt="client's logo">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide brand-logo brand-logo--slider">
+                                    <a href="#">
+                                        <div class="brand-logo__image">
+                                            <img src="~/assets/images/brand/mitech-client-logo-03.png" class="img-fluid" alt="client's logo">
+                                        </div>
+                                        <div class="brand-logo__image-hover">
+                                            <img src="~/assets/images/brand/mitech-client-logo-03-hover.png" class="img-fluid" alt="client's logo">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide brand-logo brand-logo--slider">
+                                    <a href="#">
+                                        <div class="brand-logo__image">
+                                            <img src="~/assets/images/brand/mitech-client-logo-04.png" class="img-fluid" alt="client's logo">
+                                        </div>
+                                        <div class="brand-logo__image-hover">
+                                            <img src="~/assets/images/brand/mitech-client-logo-04-hover.png" class="img-fluid" alt="client's logo">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide brand-logo brand-logo--slider">
+                                    <a href="#">
+                                        <div class="brand-logo__image">
+                                            <img src="~/assets/images/brand/mitech-client-logo-05.png" class="img-fluid" alt="client's logo">
+                                        </div>
+                                        <div class="brand-logo__image-hover">
+                                            <img src="~/assets/images/brand/mitech-client-logo-05-hover.png" class="img-fluid" alt="client's logo">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide brand-logo brand-logo--slider">
+                                    <a href="#">
+                                        <div class="brand-logo__image">
+                                            <img src="~/assets/images/brand/mitech-client-logo-06.png" class="img-fluid" alt="client's logo">
+                                        </div>
+                                        <div class="brand-logo__image-hover">
+                                            <img src="~/assets/images/brand/mitech-client-logo-06-hover.png" class="img-fluid" alt="client's logo">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide brand-logo brand-logo--slider">
+                                    <a href="#">
+                                        <div class="brand-logo__image">
+                                            <img src="~/assets/images/brand/mitech-client-logo-07.png" class="img-fluid" alt="client's logo">
+                                        </div>
+                                        <div class="brand-logo__image-hover">
+                                            <img src="~/assets/images/brand/mitech-client-logo-07-hover.png" class="img-fluid" alt="client's logo">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide brand-logo brand-logo--slider">
+                                    <a href="#">
+                                        <div class="brand-logo__image">
+                                            <img src="~/assets/images/brand/mitech-client-logo-08.png" class="img-fluid" alt="client's logo">
+                                        </div>
+                                        <div class="brand-logo__image-hover">
+                                            <img src="~/assets/images/brand/mitech-client-logo-08-hover.png" class="img-fluid" alt="client's logo">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide brand-logo brand-logo--slider">
+                                    <a href="#">
+                                        <div class="brand-logo__image">
+                                            <img src="~/assets/images/brand/mitech-client-logo-09.png" class="img-fluid" alt="client's logo">
+                                        </div>
+                                        <div class="brand-logo__image-hover">
+                                            <img src="~/assets/images/brand/mitech-client-logo-09-hover.png" class="img-fluid" alt="client's logo">
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -568,5 +573,11 @@
                 </div>
             </div>
         </div>
-        <!--====================  End of brand logo slider area  ====================-->
+    </div>-->
+    <!--====================  End of brand logo slider area  ====================-->
     </div>
+
+    
+
+
+
